@@ -68,3 +68,4 @@ def amino_acid_to_polypeptide():
 
 def get_putative_proteins(genome):
     pass
+
