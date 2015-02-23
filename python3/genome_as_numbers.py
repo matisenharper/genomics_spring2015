@@ -6,6 +6,11 @@ __author__ = 'matisencale'
 #number_protein_strand=""
 number_translation_map = {}
 
+sum_to_letter = {1: 'q', 2: 'j', 3: 'v', 4: 'p', 5: 'g', 6: 'w', 7: 'u', 8: 'l',
+                 9: 'r', 10: 's', 11: 'i', 12: 'a', 13: 'e', 14: 't', 15: 'o',
+                 16: 'n', 17: 'h', 18: 'd', 19: 'c', 20: 'm', 21: 'f', 22: 'y',
+                 23: 'b', 24: 'k', 25: 'x', 26: 'z'}
+
 #passed a number_genome_digit and returns the matching pair for mrna
 #example: '0'->'9', '1'->'8', ... '9'->'0'
 def transcribe_number_digit(number_genome_digit):
