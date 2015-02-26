@@ -10,4 +10,4 @@ class Genome:
         self.negative_strand=self.__get_negative_strand__(self.ps)
 
     def __get_negative_strand__(self):
-        pass
+        return self.positive_strand[::-1]
